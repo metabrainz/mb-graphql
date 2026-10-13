@@ -1,11 +1,11 @@
 export default {
   introspection: {
     type: "sdl",
-    paths: ["./schema.graphql"],
+    paths: ["./schema/schema.graphql"],
   },
   website: {
     template: "carbon-multi-page",
-    output: "./docs",
+    output: "./public",
     options: {
       siteRoot: "",
       appTitle: "MusicBrainz GraphQL API Docs",
