@@ -7,6 +7,7 @@ use tokio::runtime::Runtime;
 use async_graphql::{Request, Variables};
 use mb_graphql::graphql::{AppSchema, build_schema};
 
+#[allow(dead_code)]
 #[path = "../tests/queries/mod.rs"]
 mod queries;
 
